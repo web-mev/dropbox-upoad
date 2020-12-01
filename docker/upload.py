@@ -84,6 +84,7 @@ if __name__ == '__main__':
 		os.mkdir(WORKING_DIR)
 		local_filepath = download_to_disk(args)
 		path_in_bucket = send_to_bucket(local_filepath, args)
+		sys.stdout.write(path_in_bucket)
 	except Exception as ex:
 		sys.stderr.write('Experienced an unexpected error. Error was: {ex}'.format(ex=ex))
 		sys.exit(1)
