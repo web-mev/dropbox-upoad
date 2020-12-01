@@ -37,7 +37,7 @@
         } 
     }, 
     "outputs": {
-        "uploaded_paths": {
+        "GCPDropboxUpload.uploaded_paths": {
             "spec": {
                 "attribute_type": "DataResource", 
                 "resource_type": "*",

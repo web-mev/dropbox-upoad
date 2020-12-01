@@ -32,7 +32,7 @@ workflow GCPDropboxUpload {
     }
 
     output {
-        Array[String] uploaded_files = upload.out
+        Array[String] uploaded_paths = upload.out
     }
 }
 
